@@ -1,0 +1,31 @@
+body{
+    font-family: 'Raleway';
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(Raleway.ttf);
+}
+
+.profileImg{
+  width:5rem;
+  height:5rem;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
