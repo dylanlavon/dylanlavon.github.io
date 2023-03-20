@@ -4,7 +4,7 @@ body{
 
 @font-face {
     font-family: 'Raleway';
-    src: url(Raleway.ttf);
+    src: url(../fonts/Raleway.ttf);
 }
 
 .profileImg{

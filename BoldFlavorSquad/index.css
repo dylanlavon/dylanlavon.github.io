@@ -4,7 +4,7 @@ h1{
     letter-spacing: .75rem;
 }
 
-@font-face { font-family: ClimateCrisis; src: url('ClimateCrisis.ttf'); } 
+@font-face { font-family: ClimateCrisis; src: url('../fonts/ClimateCrisis.ttf'); } 
 
 .wrapper { 
     height: 100%;
