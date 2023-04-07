@@ -2,22 +2,44 @@
              font-family: Poppins; src: url('../fonts/Poppins.ttf');  } 
 
 .profileImg{
-    width:25rem;
-    height:25rem;
+    width:32%;
+    height:32%%;
     object-fit:cover;
     border-radius:50%;
   }
 
-  .hiImDylan{
+  .hiIm{
     width: 90%;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
-    text-align: center;
+    left: 68%;
+    text-align: left;
   }
 
-  .hiImDylan span{
+  .DylanBritain
+  {
+    width: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 62%;
+    left: 68%;
+    text-align: left;
+  }
+
+  .hiIm span{
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 8vw;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 3px 5px rgb(70, 124, 216);
+    position: relative;
+    transform: translateY(-100vh);
+    animation: fall 3.5s forwards;
+  }
+
+  .DylanBritain span{
     display: inline-block;
     font-family: "Poppins", sans-serif;
     font-size: 8vw;
@@ -33,13 +55,13 @@
         transform: translateY(0);
     }
   }
-  .hiImDylan span:nth-child(2){
+  .hiIm span:nth-child(2){
     animation-delay: 1s;
   }
-  .hiImDylan span:nth-child(3){
+  .DylanBritain span:nth-child(1){
     animation-delay: 1.3s;
   }
-  .hiImDylan span:nth-child(4){
+  .DylanBritain span:nth-child(2){
     animation-delay: 2s;
   }
 

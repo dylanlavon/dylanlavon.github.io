@@ -1,10 +1,21 @@
+*{
+    font-family:Raleway;
+}
+
 h1{
     font-family: ClimateCrisis;
     color: white;
     letter-spacing: .75rem;
 }
 
+.coolText{
+    font-family: ClimateCrisis;
+    font-weight: 100;
+}
+
 @font-face { font-family: ClimateCrisis; src: url('../fonts/ClimateCrisis.ttf'); } 
+@font-face { font-family: Poppins; src: url('../fonts/Poppins.ttf'); } 
+@font-face { font-family: Raleway; src: url('../fonts/Raleway.ttf'); } 
 
 .wrapper { 
     height: 100%;
@@ -42,3 +53,7 @@ h1{
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
+
+.white-text{
+    color: white;
+}
